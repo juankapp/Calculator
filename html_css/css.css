@@ -1,0 +1,124 @@
+.titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(43, 241, 126);
+    height: 110px;
+}
+
+.titulo h1 {
+    color: white;
+    font-family: cursive;
+    -webkit-text-stroke-width: 1.5px; 
+    -webkit-text-stroke-color: #000; 
+    font-size: 50px;
+    
+}
+
+.menu {
+    display: flex;
+    padding: 5px 10px 0px 0px;
+    justify-content: end;
+    padding-bottom: 25px;
+    
+}
+
+.index {
+    width: 1000px;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 6px 4px 24px 17px rgba(0,0,0,0.43); 
+    box-shadow: 6px 4px 24px 17px rgba(0,0,0,0.43);
+    
+}
+
+.apresentacao .tit  {
+    text-align: center;
+    padding:20px;
+    font-size: 50px;
+    font-family: Times New Roman;
+
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    
+}
+
+.doutrina {
+    padding-top: 150px;
+    text-align: center ;
+    font-size: 50px;
+    font-family: Fantasy ;
+    -webkit-text-stroke-width: 1.0px; 
+    -webkit-text-stroke-color: rgb(95, 95, 95); 
+
+}
+
+.botao {
+    padding: 20px;
+    text-align: center;
+}
+
+.botao button {
+    font-size: 30px;
+}
+
+.img{
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke-width: 1.0px; 
+    -webkit-text-stroke-color: rgb(110, 110, 110);
+}
+
+.final {
+    margin-top: 50px;
+    background-color: rgb(43, 241, 126);
+    height: 150px;
+}
+
+
+.final .end {
+    padding-left: 500px;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: red;
+}
+
+.formulario {
+    padding: 50px;
+    width: 80%;    
+    padding-left: 30%;
+}
+
+.formulario h1 {
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke-width: 1.0px; 
+    -webkit-text-stroke-color: rgb(95, 95, 95); 
+    
+}
+
+.dia {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario h2 {
+    display: flex;
+    
+    font-size: 30px;
+}
+
+.text-result {
+    font-size: 30px;
+    text-align: center;
+}
